@@ -1,0 +1,18 @@
+   mpg  cylinders  displacement  horsepower  weight  acceleration  model-year
+0  18.0          8         307.0       130.0    3504          12.0          70
+1  15.0          8         350.0       165.0    3693          11.5          70
+2  18.0          8         318.0       150.0    3436          11.0          70
+3  16.0          8         304.0       150.0    3433          12.0          70
+4  17.0          8         302.0       140.0    3449          10.5          70
+
+Missing values in each column:
+mpg             0
+cylinders       0
+displacement    0
+horsepower      2
+weight          0
+acceleration    0
+model-year      0
+dtype: int64
+Mean Absolute Error: 3.5636014995767114
+R² Score: 0.6239868951575522
